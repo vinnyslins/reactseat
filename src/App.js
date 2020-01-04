@@ -1,16 +1,17 @@
-import React from 'react';
-import Header from './components/Header/Header';
+import React from 'react'
 
-import api from './services/api';
+import Routes from './routes'
+import Header from './components/Header'
 
-import './styles.css';
+import './styles.css'
 
 const App = () => {
   return (
     <div className="App">
-      <Header/>
+      <Header />
+      <Routes />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

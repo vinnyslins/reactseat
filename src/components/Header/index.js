@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-import './Header.css';
+import './styles.css'
 
 const Header = () => (
   <header id="main-header">
     JSHunt
   </header>
-);
+)
 
-export default Header;
+export default Header
